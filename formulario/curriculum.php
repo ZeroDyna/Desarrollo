@@ -38,6 +38,10 @@
 	
             </div>
             <div class="right-column">
+                <h2>Formación</h2>
+                <p><?php echo htmlspecialchars($_GET['educacion']); ?></p>
+
+
                	<h2>Experiencia laboral </h2>
                 <p><?php echo htmlspecialchars($_GET['perfil']); ?></p>
 

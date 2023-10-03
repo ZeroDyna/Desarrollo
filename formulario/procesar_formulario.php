@@ -10,6 +10,7 @@ $idiomas = isset($_POST['idiomas']) ? implode(', ', $_POST['idiomas']) : '';
 $lenguajesProgramacion = isset($_POST['lenguajes_programacion']) ? implode(', ', $_POST['lenguajes_programacion']) : '';
 $aptitudes = $_POST['aptitudes'];
 $habilidades = isset($_POST['habilidades']) ? implode(', ', $_POST['habilidades']) : '';
+$educacion= isset($_POST['educacion']) ? $_POST['educacion'] : '';
 $perfil = $_POST['perfil'];
 
 // Construir un array con los datos
@@ -21,6 +22,7 @@ $data = array(
     'nacionalidad' => $nacionalidad,
 	'idiomas' => $idiomas,
     'lenguajes_programacion' => $lenguajesProgramacion,
+	'educacion' => $educacion,
     'aptitudes' => $aptitudes,
     'habilidades' => $habilidades,
     'perfil' => $perfil
