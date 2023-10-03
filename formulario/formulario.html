@@ -39,18 +39,26 @@
                 <option value="Brasil">Brasil</option>
             </select><br><br>
 
-            <label>Nivel de Inglés:</label><br>
-            <input type="radio" id="basico" name="nivel_ingles" value="basico">
-            <label for="basico">Básico</label><br>
+			<label>Idiomas:</label><br>
+				<input type="checkbox" id="ingles" name="idiomas[]" value="Inglés">
+				<label for="ingles">Inglés</label><br>
 
-            <input type="radio" id="intermedio" name="nivel_ingles" value="intermedio">
-            <label for="intermedio">Intermedio</label><br>
+				<input type="checkbox" id="indonesio" name="idiomas[]" value="Indonesio">
+				<label for="indonesio">Indonesio</label><br>
 
-            <input type="radio" id="avanzado" name="nivel_ingles" value="avanzado">
-            <label for="avanzado">Avanzado</label><br>
+				<input type="checkbox" id="chino_tradicional" name="idiomas[]" value="Chino Tradicional">
+				<label for="chino_tradicional">Chino Tradicional</label><br>
 
-            <input type="radio" id="fluido" name="nivel_ingles" value="fluido">
-            <label for="fluido">Fluido</label><br><br>
+				<input type="checkbox" id="chino_simplificado" name="idiomas[]" value="Chino Simplificado">
+				<label for="chino_simplificado">Chino Simplificado</label><br>
+
+				<input type="checkbox" id="portugues" name="idiomas[]" value="Portugués">
+				<label for="portugues">Portugués</label><br>
+
+				<input type="checkbox" id="frances" name="idiomas[]" value="Francés">
+				<label for="frances">Francés</label><br><br>
+
+			</select><br><br>
 
             <label for="lenguajes_programacion">Lenguajes de Programación:</label>
             <select id="lenguajes_programacion" name="lenguajes_programacion[]" multiple>
@@ -68,17 +76,18 @@
                 <option value="inteligencia emocionnal">
             </datalist><br><br>
 
-            <label>Habilidades:</label><br>
-            <input type="checkbox" id="habilidad1" name="habilidades[]" value="Habilidad 1">
-            <label for="habilidad1">Liderazgo</label><br>
+			<label>Habilidades:</label><br>
+				<input type="checkbox" id="liderazgo" name="habilidades[]" value="Liderazgo">
+				<label for="liderazgo">Liderazgo</label><br>
 
-            <input type="checkbox" id="habilidad2" name="habilidades[]" value="Habilidad 2">
-            <label for="habilidad2">Programacion c++</label><br>
+				<input type="checkbox" id="programacion_cpp" name="habilidades[]" value="Programación C++">
+				<label for="programacion_cpp">Programación C++</label><br>
 
-            <input type="checkbox" id="habilidad3" name="habilidades[]" value="Habilidad 3">
-            <label for="habilidad3">Empatia</label><br><br>
+				<input type="checkbox" id="empatia" name="habilidades[]" value="Empatía">
+				<label for="empatia">Empatía</label><br><br>
+				</select><br><br>
 
-            <label for="perfil">Perfil:</label><br>
+			<label for="perfil">Experiencia Laboral</label><br>
             <textarea id="perfil" name="perfil" rows="4" cols="50"></textarea><br><br>
 
             <input type="submit" value="Enviar">

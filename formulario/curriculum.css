@@ -24,7 +24,7 @@
   }
   
   .title {
-    font-size: 24px;
+    font-size: 34px;
     margin-left: 200px;
     color: white;
     text-align: center;
@@ -38,7 +38,7 @@
   .left-column {
     background-color: lightgray;
     padding: 20px;
-    height: auto;
+    height: 750px;
   }
   
   .right-column {
